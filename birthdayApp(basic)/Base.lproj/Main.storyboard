@@ -16,37 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqm-gk-dI3">
-                                <rect key="frame" x="30" y="149" width="332" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqm-gk-dI3">
+                                <rect key="frame" x="30" y="149" width="333" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="v5M-Ub-sZ3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zzL-0K-A9M">
-                                <rect key="frame" x="30" y="222" width="332" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zzL-0K-A9M">
+                                <rect key="frame" x="30" y="222" width="333" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="wAi-rC-rdo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN6-qh-FfV">
-                                <rect key="frame" x="156" y="297" width="80" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN6-qh-FfV">
+                                <rect key="frame" x="156" y="297" width="81" height="49"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
                                 <connections>
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkp-lz-1xt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApE-n2-tjk">
-                                <rect key="frame" x="30" y="385" width="332" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApE-n2-tjk">
+                                <rect key="frame" x="30" y="385" width="333" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="CeL-X9-Qa2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birthday : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grf-3p-wzf">
-                                <rect key="frame" x="30" y="467" width="332" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grf-3p-wzf">
+                                <rect key="frame" x="30" y="467" width="333" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="hvL-2J-lw2"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -54,6 +61,24 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zzL-0K-A9M" firstAttribute="centerX" secondItem="JN6-qh-FfV" secondAttribute="centerX" id="6Ra-wt-H2J"/>
+                            <constraint firstItem="grf-3p-wzf" firstAttribute="top" secondItem="ApE-n2-tjk" secondAttribute="bottom" constant="41" id="AWx-6p-ZSf"/>
+                            <constraint firstItem="zzL-0K-A9M" firstAttribute="top" secondItem="hqm-gk-dI3" secondAttribute="bottom" constant="39" id="J8r-7E-YEe"/>
+                            <constraint firstItem="zzL-0K-A9M" firstAttribute="leading" secondItem="ApE-n2-tjk" secondAttribute="leading" id="K07-3n-xL2"/>
+                            <constraint firstItem="JN6-qh-FfV" firstAttribute="top" secondItem="zzL-0K-A9M" secondAttribute="bottom" constant="41" id="LhA-0d-zOP"/>
+                            <constraint firstItem="hqm-gk-dI3" firstAttribute="leading" secondItem="zzL-0K-A9M" secondAttribute="leading" id="aCR-t1-QeZ"/>
+                            <constraint firstItem="hqm-gk-dI3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="aXc-wS-RMQ"/>
+                            <constraint firstItem="ApE-n2-tjk" firstAttribute="leading" secondItem="grf-3p-wzf" secondAttribute="leading" id="c8y-V0-mXs"/>
+                            <constraint firstItem="JN6-qh-FfV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="cUS-PQ-FYM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="grf-3p-wzf" secondAttribute="bottom" constant="310" id="eep-ay-daO"/>
+                            <constraint firstItem="hqm-gk-dI3" firstAttribute="trailing" secondItem="zzL-0K-A9M" secondAttribute="trailing" id="gxT-xR-men"/>
+                            <constraint firstItem="hqm-gk-dI3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZv-ZC-b7e"/>
+                            <constraint firstItem="ApE-n2-tjk" firstAttribute="top" secondItem="JN6-qh-FfV" secondAttribute="bottom" constant="39" id="v3V-di-6AG"/>
+                            <constraint firstItem="hqm-gk-dI3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="vyj-hC-zl5"/>
+                            <constraint firstItem="zzL-0K-A9M" firstAttribute="trailing" secondItem="ApE-n2-tjk" secondAttribute="trailing" id="w5S-pv-gpT"/>
+                            <constraint firstItem="ApE-n2-tjk" firstAttribute="trailing" secondItem="grf-3p-wzf" secondAttribute="trailing" id="y9V-Wg-zsA"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="birthdayLabel" destination="grf-3p-wzf" id="Ql1-Zz-aQu"/>
