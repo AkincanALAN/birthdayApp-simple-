@@ -18,10 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var birthdayText: UITextField!
     @IBAction func saveButton(_ sender: Any) {
-        let name = nameText.text
-        nameLabel.text = name
-        let birthday = birthdayText.text
-        birthdayLabel.text = birthday
+        nameLabel.text = nameText.text
+        birthdayLabel.text = birthdayText.text
     }
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
