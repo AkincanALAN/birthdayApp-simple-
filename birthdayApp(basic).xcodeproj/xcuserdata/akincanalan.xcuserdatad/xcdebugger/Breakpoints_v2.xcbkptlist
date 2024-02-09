@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0153EBE6-EB6F-41B2-8E95-B383A716E303"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3041EB61-FF8A-4419-8DC3-A94116298652"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "birthdayApp(basic)/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - 18d0e03d660e1c7a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.nameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/birthdayApp(basic)/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - 3eb2e326ea3cbb8e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.nameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/birthdayApp(basic)/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - 28a4efa4594fb1fa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/birthdayApp(basic)/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - be7ff6f1c93bbf7d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - e6259ab3a9094f64"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; birthdayApp_basic_.ViewController"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/birthdayApp(basic)/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "3041EB61-FF8A-4419-8DC3-A94116298652 - 8cbd84b548ced726"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthdayApp_basic_.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;birthdayApp_basic_.ViewController&gt;"
+                  moduleName = "birthdayApp(basic)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akincanalan/Desktop/yaz%C4%B1l%C4%B1m/birthdayApp(basic)/birthdayApp(basic)/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
