@@ -14,8 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let storedName = UserDefaults.standard.object(forKey: "name")
         let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
-        nameLabel.text = storedName as? String
-        birthdayLabel.text = storedBirthday as? String
+        if let stringName = storedName as? String {
+            if let stringBirthday = storedBirthday as? String {
+                nameLabel.text = "Name: \(stringName)"
+                birthdayLabel.text = "Birthday: \(stringBirthday)"
+            }
+        }
         
     }
     
@@ -29,6 +33,14 @@ class ViewController: UIViewController {
         birthdayLabel.text = "Date: \(birthdayText.text!) saved"
 
     }
+    
+    @IBAction func deleteClicked(_ sender: Any) {
+        UserDefaults.standard.removeObject(forKey: "name")
+        UserDefaults.standard.removeObject(forKey: "birthday")
+        nameLabel.text = "Name: "
+        birthdayLabel.text = "Birthay: "
+    }
+    
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
